@@ -25,5 +25,10 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(void)viewWillAppear:(BOOL)animated{
+    for (int i = 0; i<5; i++) {
+        NSLog(@"Entra: %i", i);
+    }
+}
 
 @end
